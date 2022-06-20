@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    color: white;
+}
+form, #weather{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+input[type="text"]{
+    background:transparent;
+    color: white;
+    border: 0;
+    border-bottom: 0.5px solid green;
+    font-size: large;
+    padding: 5px 0;
+}
+ul{
+    list-style: none;
+    text-align:left ;
+}
+ul li{
+    background-color: green;
+    color: black;
+    margin-top: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+ul li span{
+    color: white;
+}
+#degrees{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+#city{
+    color: white;
+}
+button#change{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+div.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+div.info h3{
+    color: green;
+    text-transform: uppercase;
+}
+div.info .value{
+    font-size: 1.5rem;
+}
+div.info .value span{
+    color: red;
+    font-size: 0.8rem;
+}
+.Container{
+    display:flex ;
+    background: url(https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg) no-repeat;
+    background-size: cover;
+
+
+}
+
+
